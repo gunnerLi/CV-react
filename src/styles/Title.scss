@@ -1,0 +1,22 @@
+.model-title{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap ;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top:15px;
+    h2{
+        border-bottom: 1px solid #111;
+        font-size: 1.5rem;
+        padding-bottom: 8px;
+        color:rgb(37,70,101);
+        flex-basis:200px;
+        flex-grow: 1;
+        margin-top: 0px;
+    }
+    img{
+        flex-basis:38px;
+        margin-right: 10px;
+    }
+}
+
