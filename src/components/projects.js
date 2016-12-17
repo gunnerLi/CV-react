@@ -52,8 +52,8 @@ let projects = [
 },{
     'name':'我的个人简历',
     'descript':'网页版个人简历',
-    'demo':'https://lgl1993.github.io/gallery',
-    'code':'https://github.com/lgl1993/gallery',
+    'demo':'https://lgl1993.github.io/CV-react',
+    'code':'https://github.com/lgl1993/CV-react',
     'tool':'VS Code',
     'method':'用react实现的网页版简历，用canvas绘制网页背景，用Ant motion实现简历内部动画效果。',
     'technology':'webpack打包，react框架，ES6，SASS，Ant motion'    
