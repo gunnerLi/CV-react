@@ -1,0 +1,58 @@
+@media only screen and (max-width: 767px){
+  .container{
+    width:750px;
+    margin:0;
+  }
+  .left-bar{
+    width:150px;
+
+    @at-root .userinfo {
+      min-height: 494px;
+      .row{
+      .info-icon{
+        width: 110px;
+        text-align: left;
+      }
+      }
+    }
+  }
+  .right-bar{
+    width:600px;
+     @at-root .education{
+      .content{
+        padding-left:0px;
+      }
+    }
+     @at-root .skills{
+      .content{
+        padding-left: 0px;
+      }
+    }
+    @at-root .experience{
+      >.content{
+          padding-left: 0px;
+      }
+    }
+    @at-root .certificate{
+     >.content{
+            padding-left: 0px;
+        }
+    }
+     @at-root .evaluation{
+      >.content{
+          padding-left: 0px;
+      }
+     }
+  }
+
+  .row{
+        .col-sm-2{
+            width:16%;
+            float: left;
+        }
+        .col-sm-10{
+            float: left;
+            width: 84%;
+        }
+    }
+}

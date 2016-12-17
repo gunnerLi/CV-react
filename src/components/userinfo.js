@@ -6,8 +6,8 @@ let myInfo = [{'text':'北京市丰台区','className':'','icon':'icon-location'
 {'text':'13716095743','className':'','icon':'icon-phone','link':''},
 {'text':'ericlgl@sina.com','className':'','icon':'icon-envelop','link':''},
 {'text':'lgl1993','className':'','icon':'icon-github','link':'https://github.com/lgl1993'},
-{'text':'lgl1993','className':'','icon':'icon-npm','link':'https://github.com/lgl1993'},
-{'text':'lgl','className':'','icon':'icon-blogger','link':'https://github.com/lgl1993'}]
+{'text':'lgl1993','className':'','icon':'icon-npm','link':'https://www.npmjs.com/~lgl1993'},
+{'text':'lgl','className':'','icon':'icon-blogger','link':'http://www.w3cfuns.com/house/16787/note'}]
 
 
 class UserInfoItem extends React.Component{

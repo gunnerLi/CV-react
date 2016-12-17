@@ -1,19 +1,11 @@
 .project,.job{
-    margin-bottom: 1.5rem;
+    margin-bottom:20px;
     header{
         font-weight: bold;
-        margin-bottom: 1.5rem;
-    }
-    .row{
-        overflow: hidden;
-        margin-bottom: 1rem;
-        .col-1{
-            width:8%;
-            float: left;
-        }
-        .col-11{
-            float: left;
-            width: 92%;
-        }
+        margin-bottom: 10px;
     }
 }
+.job{
+    margin-top:15px;
+}
+

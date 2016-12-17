@@ -24,6 +24,19 @@ canvas{
     z-index: -1;
 }
 
+.row{
+        overflow: hidden;
+        margin-bottom: 15px;
+        .col-1{
+            width:8%;
+            float: left;
+        }
+        .col-11{
+            float: left;
+            width: 92%;
+        }
+}
+
 .root{
   overflow: hidden;
 }
@@ -109,12 +122,12 @@ canvas{
     min-height: 230rem;
     @at-root .education{
       .content{
-        padding-left:2.775rem;
+        padding-left:45px;
       }
     }
     @at-root .skills{
       .content{
-        padding-left: 2.775rem;
+        padding-left: 45px;
         ul{
           list-style: decimal;
           margin-left: 1rem;
@@ -125,18 +138,34 @@ canvas{
       }
     }
     @at-root .experience{
+
       >.content{
-        padding-left: 2.775rem;
+        padding-left: 45px;
          h2{
         font-size:1.25rem;
         color:rgb(37,70,101);
+        margin-bottom: 0px;
+      }
+      h3{
+        font-size: 1rem;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-top: 15px;
+      }
+      .demo{
+        display: inline-block;
+        margin-left: 20px;
+        a{
+          margin-right: 10px;
+        }
       }
       }
      
     }
     @at-root .certificate{
       >.content{
-        padding-left: 2.775rem;
+        padding-left: 45px;
         li{
           margin-bottom: 1rem;
         }
@@ -144,7 +173,7 @@ canvas{
     }
     @at-root .evaluation{
       >.content{
-        padding-left: 2.775rem;
+        padding-left: 45px;
         li{
           margin-bottom: 1rem;
         }
@@ -189,6 +218,12 @@ canvas{
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-demo:before {
+  content: "\e9cb";
+}
+.icon-code:before {
+  content: "\eae7";
+}
 .icon-phone:before {
   content: "\e942";
 }
@@ -214,24 +249,3 @@ canvas{
   content: "\e900";
 }
 
-@media only screen and (max-width: 767px){
-  .container{
-    width:750px;
-  }
-  .left-bar{
-    width:150px;
-
-    @at-root .userinfo {
-      min-height: 494px;
-      .row{
-      .info-icon{
-        width: 110px;
-        text-align: left;
-      }
-      }
-    }
-  }
-  .right-bar{
-    width:600px;
-  }
-}
