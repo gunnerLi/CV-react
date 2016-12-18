@@ -25,17 +25,40 @@ canvas{
 }
 
 .row{
-        overflow: hidden;
+        display: table;
         margin-bottom: 15px;
-        .col-1{
-            width:8%;
-            float: left;
+        .title{
+            display: table-cell;
+            width: 75px;
         }
-        .col-11{
-            float: left;
-            width: 92%;
+        .dist{
+            display: table-cell;
+            width: auto;
         }
 }
+
+// .row{
+//   display: flex;
+//   flex-flow: row nowrap;
+//   .title{
+//     flex-basis: 75px;
+//   }
+//   .dist{
+//     flex:1;
+//   }
+// }
+
+// .row{
+
+//   .title{
+//     width: 75px;
+//     display: inline-block;
+//   }
+//   .dist{
+//     display: inline-block;
+//     width:calc(100% - 75px);
+//   }
+// }
 
 .root{
   overflow: hidden;

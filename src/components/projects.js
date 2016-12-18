@@ -97,20 +97,20 @@ class ProjectItem extends React.Component{
                 {this.createLink()}
                </header>
                <div className="row">
-                     <div className="col-1 col-sm-2">项目描述:</div>
-                     <div className="col-11 col-sm-10">{projects.descript}</div>
+                     <div className="title">项目描述:</div>
+                     <div className="dist">{projects.descript}</div>
                </div> 
                <div className="row">
-                     <div className="col-1 col-sm-2">开发工具:</div>
-                    <div className="col-11 col-sm-10">{projects.tool}</div>
+                     <div className="title">开发工具:</div>
+                    <div className="dist">{projects.tool}</div>
                </div> 
                <div className="row">
-                     <div className="col-1 col-sm-2">主要功能:</div>
-                    <div className="col-11 col-sm-10">{projects.method}</div>
+                     <div className="title">主要功能:</div>
+                    <div className="dist">{projects.method}</div>
                </div> 
                 <div className="row">
-                     <div className="col-1 col-sm-2">主要技术:</div>
-                    <div className="col-11 col-sm-10">{projects.technology}</div>
+                     <div className="title">主要技术:</div>
+                    <div className="dist">{projects.technology}</div>
                </div> 
             </section>
         )

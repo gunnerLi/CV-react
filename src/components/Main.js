@@ -1,7 +1,6 @@
 require('normalize.css/normalize.css');
 require('styles/App.scss');
 require('styles/Response.scss');
-require('styles/Loading.scss');
 import React from 'react';
 import UserImage from './userimage';
 import SkillsBar from './skillsbar';
