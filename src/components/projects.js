@@ -6,7 +6,6 @@ let projects = [
     {
     'name':'仪器设备管理系统',
     'descript':'15年毕业设计项目，通过设备管理系统实现自动化仪器设备管理。',
-    'tool':'Zend Studio',
     'method':'用户信息管理，权限控制，设备信息管理，设备使用申报与审批，使用信息的统计分析。',
     'technology':'后台语言采用php，使用ThinkPHP作为开发框架。基于rbac进行权限控制，前端采用echarts绘图分析统计到的数据'    
 },{
@@ -14,7 +13,6 @@ let projects = [
     'demo':'https://lgl1993.github.io/3Dkite',
     'code':'https://github.com/lgl1993/3Dkite',
     'descript':'一个3D的放风筝展示',
-    'tool':'sublime',
     'method':'模拟真实的放风筝场景，使用户控制风筝活动，场景中加载了风筝，汽车，飞鸟等模型',
     'technology':'Three.js 3D框架'    
 },{
@@ -22,7 +20,6 @@ let projects = [
     'descript':'用canvas实现的五子棋游戏',
     'demo':'https://lgl1993.github.io/html5wuziqi',
     'code':'https://github.com/lgl1993/html5wuziqi',
-    'tool':'sublime',
     'method':'实现了AI逻辑，用户可以通过选择可以进行人机对战或人人对战',
     'technology':'canvas绘图，原生js'    
 },{
@@ -30,7 +27,6 @@ let projects = [
     'descript':'一个常用js函数库',
     'code':'https://github.com/lgl1993/jslibrary',
     'demo':'https://www.npmjs.com/package/jslibrary',
-    'tool':'sublime',
     'method':'封装了一些常用函数，包括正则判断、排序、类操作、通用事件、ajax等功能的，整理并发布在npm上',
     'technology':'原生js，类库封装'    
 },{
@@ -38,7 +34,6 @@ let projects = [
     'descript':'JS二叉树结构扩展',
     'code':'https://github.com/lgl1993/binarytree',
     'demo':'https://www.npmjs.com/package/binarytrees',
-    'tool':'sublime',
     'method':'用js实现二叉树结构，并实现前中后序遍历，节点的插入查找与删除等操作，整理并发布在npm上',
     'technology':'原生js，二叉树结构基本知识'    
 },{
@@ -54,7 +49,6 @@ let projects = [
     'descript':'网页版个人简历',
     'demo':'https://lgl1993.github.io/CV-react',
     'code':'https://github.com/lgl1993/CV-react',
-    'tool':'VS Code',
     'method':'用react实现的网页版简历，用canvas绘制网页背景，用Ant motion实现简历内部动画效果。',
     'technology':'webpack打包，react框架，ES6，SASS，Ant motion'    
 }
@@ -63,7 +57,6 @@ let projects = [
     'descript':'用react封装的图片画廊组件',
     'demo':'https://lgl1993.github.io/gallery',
     'code':'https://github.com/lgl1993/gallery',
-    'tool':'sublime',
     'method':'响应用户点击事件，当用户点击某张图片时或相应导航时，图片自动居中展示，其他图片自动进行重新排布。',
     'technology':'webpack打包，yoman脚手架，react框架，ES6，SCSS'    
 }
@@ -99,10 +92,6 @@ class ProjectItem extends React.Component{
                <div className="row">
                      <div className="title">项目描述:</div>
                      <div className="dist">{projects.descript}</div>
-               </div> 
-               <div className="row">
-                     <div className="title">开发工具:</div>
-                    <div className="dist">{projects.tool}</div>
                </div> 
                <div className="row">
                      <div className="title">主要功能:</div>
