@@ -17,7 +17,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '/../dist/assets'),
     filename: 'app.js',
-    publicPath: './assets/'
+    publicPath: 'assets/'
   },
   devServer: {
     contentBase: './src/',
